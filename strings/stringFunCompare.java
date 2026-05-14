@@ -20,6 +20,8 @@ public class stringFunCompare {
 
         if(s1.equals(s3)) {
             System.out.println("The both strings are equal");
+        }else{
+            System.out.println("The strings s1 and s3 are not eqal");
         }
     }
 }
