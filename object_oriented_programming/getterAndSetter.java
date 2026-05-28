@@ -13,22 +13,23 @@ public class getterAndSetter {
 
     }
 
-    static class Pen {
-        private String color;
-        private int tip;
+}
+class Pen {
+    private String color;
+    private int tip;
 
-        String getColor() {
-            return this.color;
-        }
-        int getTip() {
-            return this.tip;
-        }
-        void setColor(String newcolor) {
-            color = newcolor;
-        }
+    String getColor() {
+        return this.color;
+    }
+    int getTip() {
+        return this.tip;
+    }
+    void setColor(String newcolor) {
+        color = newcolor;
+    }
 
-        void settip(int tip) {
-            this.tip = tip;
-        }
+    void settip(int tip) {
+        this.tip = tip;
     }
 }
+
